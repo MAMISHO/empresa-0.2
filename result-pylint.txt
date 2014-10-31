@@ -1,0 +1,145 @@
+************* Module empleado
+C:  4, 0: Exactly one space required after comma
+    def __init__(self,nombre,apellidos,dni,direccion,edad,salario):
+                     ^ (bad-whitespace)
+C:  4, 0: Exactly one space required after comma
+    def __init__(self,nombre,apellidos,dni,direccion,edad,salario):
+                            ^ (bad-whitespace)
+C:  4, 0: Exactly one space required after comma
+    def __init__(self,nombre,apellidos,dni,direccion,edad,salario):
+                                      ^ (bad-whitespace)
+C:  4, 0: Exactly one space required after comma
+    def __init__(self,nombre,apellidos,dni,direccion,edad,salario):
+                                          ^ (bad-whitespace)
+C:  4, 0: Exactly one space required after comma
+    def __init__(self,nombre,apellidos,dni,direccion,edad,salario):
+                                                    ^ (bad-whitespace)
+C:  4, 0: Exactly one space required after comma
+    def __init__(self,nombre,apellidos,dni,direccion,edad,salario):
+                                                         ^ (bad-whitespace)
+C:  5, 0: Exactly one space required around assignment
+        self.nombre=nombre
+                   ^ (bad-whitespace)
+C:  6, 0: Exactly one space required around assignment
+        self.apellidos=apellidos
+                      ^ (bad-whitespace)
+C:  7, 0: Exactly one space required around assignment
+        self.dni=dni
+                ^ (bad-whitespace)
+C:  8, 0: Exactly one space required around assignment
+        self.direccion=direccion
+                      ^ (bad-whitespace)
+C:  9, 0: Exactly one space required around assignment
+        self.edad=edad
+                 ^ (bad-whitespace)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Missing class docstring (missing-docstring)
+C:  3, 0: Old-style class defined. (old-style-class)
+R:  4, 4: Too many arguments (7/5) (too-many-arguments)
+W: 10, 8: Statement seems to have no effect (pointless-statement)
+E: 10, 8: Instance of 'Empleado' has no 'salario' member (no-member)
+W:  4,58: Unused argument 'salario' (unused-argument)
+C: 12, 4: Invalid method name "getSalario" (invalid-name)
+C: 12, 4: Missing method docstring (missing-docstring)
+E: 13,15: Instance of 'Empleado' has no 'salario' member (no-member)
+C: 15, 4: Missing method docstring (missing-docstring)
+C: 18, 4: Missing method docstring (missing-docstring)
+
+
+Report
+======
+16 statements analysed.
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |18     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------+------------+
+|message id          |occurrences |
++====================+============+
+|bad-whitespace      |11          |
++--------------------+------------+
+|missing-docstring   |5           |
++--------------------+------------+
+|no-member           |2           |
++--------------------+------------+
+|unused-argument     |1           |
++--------------------+------------+
+|too-many-arguments  |1           |
++--------------------+------------+
+|pointless-statement |1           |
++--------------------+------------+
+|old-style-class     |1           |
++--------------------+------------+
+|invalid-name        |1           |
++--------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -9.38/10
+
+Raw metrics
+-----------
+
++----------+-------+-------+---------+-----------+
+|type      |number |%      |previous |difference |
++==========+=======+=======+=========+===========+
+|code      |16     |100.00 |NC       |NC         |
++----------+-------+-------+---------+-----------+
+|docstring |0      |0.00   |NC       |NC         |
++----------+-------+-------+---------+-----------+
+|comment   |0      |0.00   |NC       |NC         |
++----------+-------+-------+---------+-----------+
+|empty     |0      |0.00   |NC       |NC         |
++----------+-------+-------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |4      |NC         |NC         |25.00       |25.00    |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
